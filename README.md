@@ -44,8 +44,11 @@ Make sure you have installed *Python3.12* (or newer). If you are running Linux, 
 4) Install Dependencies
 5) RUN!
 
+
+#### Linux:
+
 ``` bash
-git clone https://github.com/AI-Gruppe/OmnAIView-python.git
+git clone git@github.com:omnai-project/OmnAIView-python.git
 cd OmnAIView-python
 python3.12 -m venv .venv
 source ./.venv/bin/activate
@@ -53,14 +56,24 @@ pip install -r requirements.txt
 python ./src/main.py
 ```
 
-If you are running Windows, the commands look a bit different:
+#### Windows:
 ```sh
-git clone https://github.com/AI-Gruppe/OmnAIView-python.git
+git clone git@github.com:omnai-project/OmnAIView-python.git
 cd OmnAIView-python
 python3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python .\src\main.py
+```
+
+#### Raspberry Pi OS:
+```bash
+git clone git@github.com:omnai-project/OmnAIView-python.git
+cd OmnAIView-python
+python -m venv .venv
+source ./.venv/bin/activate
+pip install -r requirements.txt
+python ./src/main.py
 ```
 
 ### Logging 
