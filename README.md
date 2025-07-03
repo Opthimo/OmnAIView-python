@@ -66,7 +66,7 @@ pip install -r requirements.txt
 python .\src\main.py
 ```
 
-#### Raspberry Pi OS:
+#### Raspberry Pi OS (uses Python3.11):
 ```bash
 git clone git@github.com:omnai-project/OmnAIView-python.git
 cd OmnAIView-python
